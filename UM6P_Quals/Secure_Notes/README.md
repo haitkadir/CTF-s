@@ -16,7 +16,7 @@
 
 <h3>Let's check the source code</h3>
 
-<h3>In this indpoint it takes a note without any filtration saving it and return the note link</h3>
+<h3>In this endpoint it takes a note without any filtration saving it and return the note link</h3>
 
 ```javascript
 app.post('/save', (req, res) => {
@@ -33,8 +33,8 @@ app.post('/save', (req, res) => {
 });
 ```
 
-<h3>The note link was taking us to an indpoint <strong>/notes/[uid]</strong></h3>
-<h3>Let's check the indpoint</h3>
+<h3>The note link was taking us to an endpoint <strong>/notes/[uid]</strong></h3>
+<h3>Let's check the endpoint</h3>
 
 ```javascript
 app.get('/notes/:uid', (req, res) => {
@@ -93,7 +93,7 @@ Hmm Let's try some <strong>XSS</strong>
 <img src='./assets/5.png' style="max-width:40%">
 
 <h3>
-Let's check the source code again to see how <strong>/report</strong> indpoint works 
+Let's check the source code again to see how <strong>/report</strong> endpoint works 
 </h3>
 
 ```javascript

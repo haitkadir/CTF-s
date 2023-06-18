@@ -31,7 +31,7 @@ def read_file():
         return 'i bet this so called hackers think they have an LFI and they can just read the flag, guess what i deleted it!<br><br><img src="https://media.tenor.com/OCaZHb79uGAAAAAC/black-beard.gif" width="900" height="500"></img>'
 ```
 <h4>
-On <strong>/read</strong> indpoint
+On <strong>/read</strong> endpoint
 
 It's simply take an argument <strong>path</strong>
 
