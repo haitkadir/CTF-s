@@ -6,13 +6,13 @@
 
 <strong>challenge discription</strong>
 
-<img src='./assets/1.png' style="max-width:50%">
+<img src='./assets/1.png' style="max-width:40%">
 
 
 
 <h3>visiting the challenge on browser</h3>
 
-<img src='./assets/2.png' style="max-width:50%">
+<img src='./assets/2.png' style="max-width:40%">
 
 <h3>Let's check the source code</h3>
 
@@ -42,7 +42,7 @@ So it's an <strong>Arbitrary File Read</strong> Vulnerability
 Trying to read /etc/passwd
 </h4>
 
-<img src='./assets/3.png' style="max-width:50%">
+<img src='./assets/3.png' style="max-width:40%">
 
 
 <h4>
@@ -74,7 +74,7 @@ so I back again to source code there flag opend then it deleted
 
 I<h4>I already Got some information about the current proccess when I was enumirating.</h4>
 
-<img src='./assets/4.png' style="max-width:50%">
+<img src='./assets/4.png' style="max-width:40%">
 
 
 <h4>Like <strong>Pid:1</strong>
@@ -86,7 +86,7 @@ Since the file discriptor 0 1 and 2 are reserved by the system stdin stdout stde
 we will check the file discriptor 3
 </h4>
 
-<img src='./assets/5.png' style="max-width:50%">
+<img src='./assets/5.png' style="max-width:40%">
 
 
 <hr/>

